@@ -29,7 +29,6 @@ Two PDFs generated from the same 60 unique records (`ID, Name, Dept, Score`), wi
 |---|---|
 | **A** | Passes: 60 of 60 rows in data position (32 + 28), correct headers and order |
 | **B** | **R033 becomes the second table's header**; 59 of 60 rows in data position. No value lost, order correct |
-| Repeatability | 5 runs per case, identical output each time (Case B failed 5 of 5) |
 
 A diagnostic with PyMuPDF's table object shows `header.names` = `['R033', 'Person H33', 'HR', '331']` for Case B page 2, consistent with the Markdown. **The root cause inside the layout converter was not verified.**
 
@@ -43,8 +42,6 @@ A diagnostic with PyMuPDF's table object shows `header.names` = `['R033', 'Perso
 | `case_A_test.py`, `case_B_test.py` | Convert each PDF with default settings |
 | `Case_A_test_output.md`, `Case_B_test_output.md` | Raw, unedited Markdown outputs |
 | `compare.py` | Compares an output `.md` against the ground truth |
-| `repeat_runs.py` | Runs each conversion 5 times and compares hashes |
-| `caseA_run1.md` ... `caseB_run5.md` | The 10 repeat-run outputs |
 | `inspect_tables.py`, `inspect_header.py`, `inspect_conversion.py` | Investigation scripts |
 | `commands.txt` | Every command used, in order |
 | `requirements.txt` | Library versions |
