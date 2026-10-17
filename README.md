@@ -61,7 +61,6 @@ python case_A_test.py
 python case_B_test.py
 python compare.py Case_A_test_output.md
 python compare.py Case_B_test_output.md
-python repeat_runs.py
 ```
 
 Full command list: `commands.txt`.
@@ -76,6 +75,4 @@ Full command list: `commands.txt`.
 
 I used AI assistants (Claude and ChatGPT) for scripting help, explaining tool behavior and reviewing my draft. I designed the test cases, ran every experiment, checked the outputs myself, and I am responsible for the conclusions.
 
-## Links
 
-- Written report: [`[Report PDF name]`](./[Report%20PDF%20name].pdf)
