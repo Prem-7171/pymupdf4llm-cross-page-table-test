@@ -1,0 +1,4 @@
+pymupdf4llm==1.28.2
+pymupdf==1.28.2
+fpdf2==<your version>
+pypdf==<your version>

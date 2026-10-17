@@ -1,0 +1,32 @@
+# Version Check
+     pip show pymupdf4llm pymupdf
+
+# Run Test Cases and generate output
+
+    python case_A_test.py
+    python case_B_test.py
+
+# Comapare Outputs .md with ground_truth.csv
+
+    python compare.py Case_A_test_output.md
+    python compare.py Case_B_test_output.md
+
+# Investigate the cause
+
+    1. Table detection
+        python inspect_tables.py
+
+    2. Compare the raw extracted table with the Markdown output
+        python inspect_conversion.py
+
+    3. Inspect the actual implementation
+        python -c "import inspect, pymupdf4llm; print(inspect.getsource(pymupdf4llm.to_markdown))"
+
+    4. Inspect the converter's implementation
+        python -c "import inspect, pymupdf4llm; print(inspect.getsource(pymupdf4llm._layout_to_markdown))"
+
+    5. locate to_markdown
+        python -c "import pymupdf4llm.helpers.document_layout as dl; print([n for n, o in vars(dl).items() if isinstance(o, type) and hasattr(o, 'to_markdown')])"Now give me a script so that I will start making the screen recording of my test assessment, and I will submit it. I'm thinking of the screen recording video:
+
+    6. inspect_header.py
+    

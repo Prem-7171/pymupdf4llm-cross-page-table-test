@@ -1,0 +1,81 @@
+_Staff Score Report - Internal_ 
+
+Table 1: Staff scores 
+
+|**ID**|**Name**|**Dept**|**Score**|
+|---|---|---|---|
+|R001|Person B1|Ops|107|
+|R002|Person C2|Sales|114|
+|R003|Person D3|HR|121|
+|R004|Person E4|Legal|128|
+|R005|Person F5|Eng|135|
+|R006|Person G6|Ops|142|
+|R007|Person H7|Sales|149|
+|R008|Person I8|HR|156|
+|R009|Person J9|Legal|163|
+|R010|Person K10|Eng|170|
+|R011|Person L11|Ops|177|
+|R012|Person M12|Sales|184|
+|R013|Person N13|HR|191|
+|R014|Person O14|Legal|198|
+|R015|Person P15|Eng|205|
+|R016|Person Q16|Ops|212|
+|R017|Person R17|Sales|219|
+|R018|Person S18|HR|226|
+|R019|Person T19|Legal|233|
+|R020|Person U20|Eng|240|
+|R021|Person V21|Ops|247|
+|R022|Person W22|Sales|254|
+|R023|Person X23|HR|261|
+|R024|Person Y24|Legal|268|
+|R025|Person Z25|Eng|275|
+|R026|Person A26|Ops|282|
+|R027|Person B27|Sales|289|
+|R028|Person C28|HR|296|
+|R029|Person D29|Legal|303|
+|R030|Person E30|Eng|310|
+|R031|Person F31|Ops|317|
+|R032|Person G32|Sales|324|
+
+
+
+Page 1 of 2 
+
+_Staff Score Report - Internal_ 
+
+# **Table 1 (continued)** 
+
+|R033|Person H33|HR|331|
+|---|---|---|---|
+|R034|Person I34|Legal|338|
+|R035|Person J35|Eng|345|
+|R036|Person K36|Ops|352|
+|R037|Person L37|Sales|359|
+|R038|Person M38|HR|366|
+|R039|Person N39|Legal|373|
+|R040|Person O40|Eng|380|
+|R041|Person P41|Ops|387|
+|R042|Person Q42|Sales|394|
+|R043|Person R43|HR|401|
+|R044|Person S44|Legal|408|
+|R045|Person T45|Eng|415|
+|R046|Person U46|Ops|422|
+|R047|Person V47|Sales|429|
+|R048|Person W48|HR|436|
+|R049|Person X49|Legal|443|
+|R050|Person Y50|Eng|450|
+|R051|Person Z51|Ops|457|
+|R052|Person A52|Sales|464|
+|R053|Person B53|HR|471|
+|R054|Person C54|Legal|478|
+|R055|Person D55|Eng|485|
+|R056|Person E56|Ops|492|
+|R057|Person F57|Sales|499|
+|R058|Person G58|HR|506|
+|R059|Person H59|Legal|513|
+|R060|Person I60|Eng|520|
+
+
+
+Page 2 of 2 
+
